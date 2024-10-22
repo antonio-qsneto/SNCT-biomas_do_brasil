@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomas do Brasil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        p {
+            font-size: 1.7em;
+        }
+
+        header {
+            background-color: #006400;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .bioma {
+            background-color: white;
+            padding: 15px;
+            max-width: 1200px;
+            border-radius: 50px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px auto;
+        }
+
+        .bioma:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        h2 {
+            color: #006400;
+            flex-basis: 100%;
+            text-align: center;
+        }
+
+        img {
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .bioma p {
+            max-width: 600px;
+            margin: 10px 20px;
+            text-align: justify;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #006400;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .bioma {
+                flex-direction: column;
+            }
+
+            .bioma:nth-child(even) {
+                flex-direction: column;
+            }
+
+            img {
+                max-width: 100%;
+                margin-bottom: 15px;
+            }
+
+            .bioma p {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Biomas do Brasil</h1>
+</header>
+
+<main>
+    <section class="bioma">
+        <h2>Amazônia</h2>
+        <img src="https://wwfbrnew.awsassets.panda.org/img/nossosconteudos_biomas_amazonia_vocesabia_shutterstock_126689.png" alt="Floresta Amazônica">
+        <p>A Amazônia é a maior floresta tropical do mundo, ocupando grande parte do norte do Brasil e abrigando uma vasta biodiversidade.</p>
+    </section>
+
+    <section class="bioma">
+        <h2>Caatinga</h2>
+        <img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/bioma-caatinga.jpeg" alt="Vegetação da Caatinga">
+        <p>A Caatinga é um bioma semiárido encontrado no Nordeste brasileiro, com vegetação adaptada às condições de seca.</p>
+    </section>
+
+    <section class="bioma">
+        <h2>Cerrado</h2>
+        <img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/o-cerrado-segundo-maior-bioma-america-sul-segundo-maior-bioma-brasil-uma-formacao-vegetal-rica-em-biodiversidade-5be0a3d2105ea.jpg" alt="Vegetação do Cerrado">
+        <p>O Cerrado é o segundo maior bioma do Brasil e possui uma rica biodiversidade. É caracterizado por savanas e florestas abertas.</p>
+    </section>
+
+    <section class="bioma">
+        <h2>Pantanal</h2>
+        <img src="https://parktur.com.br/wp-content/uploads/2024/04/AdobeStock_360646903-1024x752.jpeg.webp" alt="Pantanal">
+        <p>O Pantanal é uma das maiores áreas úmidas do mundo, com fauna abundante e paisagens impressionantes. Ele se localiza no centro-oeste do Brasil.</p>
+    </section>
+
+    <section class="bioma">
+        <h2>Mata Atlântica</h2>
+        <img src="https://s5.static.brasilescola.uol.com.br/img/2019/04/mata-atlantica.jpg" alt="Mata Atlântica">
+        <p>A Mata Atlântica é uma floresta tropical que se estende ao longo da costa leste do Brasil. Ela é um dos biomas mais ricos em biodiversidade, mas também um dos mais ameaçados.</p>
+    </section>
+
+    <section class="bioma">
+        <h2>Pampa</h2>
+        <img src="https://s3.static.brasilescola.uol.com.br/be/2022/05/bioma-brasileiro-pampa.jpg" alt="Vegetação do Pampa">
+        <p>O Pampa é um bioma de planícies cobertas de gramíneas, localizado no sul do Brasil. Ele é caracterizado por suas vastas pastagens e fauna diversa.</p>
+    </section>
+</main>
+
+<footer>
+    <p>2024 Biomas do Brasil.</p>
+    <p>Instituto Federal de São Paulo</p>
+</footer>
+
+</body>
+</html>
